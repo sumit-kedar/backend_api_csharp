@@ -13,7 +13,7 @@ builder.Services.AddCors(options => {
         builder.AllowAnyMethod();
     });
 });
-//
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
